@@ -6,7 +6,7 @@ public class Sesion2 : MonoBehaviour
     void Start()
     {
 
-
+/*
 
         int FlappyPosY = 800;
 
@@ -184,7 +184,7 @@ public class Sesion2 : MonoBehaviour
 
 
 
-
+        */
 
 
 

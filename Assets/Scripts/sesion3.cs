@@ -5,8 +5,9 @@ public class sesion3 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        int fuerza = (Random.Range(1, 7) + (Random.Range(1, 7) + Random.Range(1, 7)) * 5;
+
         /*
+        int fuerza = (Random.Range(1, 7) + (Random.Range(1, 7) + Random.Range(1, 7)) * 5;
         int con = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
         int des = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
         int apariencia = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
