@@ -7,61 +7,199 @@ public class Sesion2 : MonoBehaviour
     {
 
 
-        int fuerza = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int con = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int des = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int apariencia = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int poder = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int suerte = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
+        
+    
+=======
+        int FlappyPosY = 800;
+
+        int upperLimitY = 700; 
+        int lowerLimitY = 0; 
 
 
-        int tamaño = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int inteligencia = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int educacion = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-
-
-
-        int edad = Random.Range (15,90); 
-
-
-        if 15 <= edad && edad <= 19;
-
+        if (FlappyPosY > upperLimitY || FlappyPosY < lowerLimitY)
         {
 
-            Debug.Log("Modificacion")
-
-            fuerza -= 5; 
-            tamaño -= 5;
-            educacion -= 5;
-
+            Debug.Log("esta muerto."); 
 
         }
 
-        //rerollea suerte
 
-        int sureReroll = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5; 
-        if (sureReroll > suerte)
-        {
-            suerte = sureReroll;
-        }
-        {
-            else if (20<= edad && edad <= 39)
+
+
+        int indiceDia = 3; 
+
+            if indiceDia = 1
             {
-                //MEJORA DE EDUCACION
+            Debug.Log("Lunes"); 
 
-                int Und100 = Random.Range(1, 101);
-
-                if (Und100 > educacion)
-                {
-                    Debug.Log("Has estudiado");
-                    educacion = educacion + Random.Range(1, 11);
-                }
-            }
         }
+        if indiceDia == 2
+            {
+            Debug.Log("Martes");
+
+        }
+        if indiceDia == 3
+            {
+            Debug.Log("Miercoles");
+
+        }
+        if indiceDia == 4
+            {
+            Debug.Log("Jueves");
+
+        }
+        if indiceDia == 5
+            {
+            Debug.Log("Viernes");
+
+        }
+
+        if indiceDia == 6
+            {
+            Debug.Log("Sabado");
+
+        }
+
+        if indiceDia == 7
+            {
+            Debug.Log("Domingo");
+
+        }
+
+
+
+
+        int coordenadaX = 3;
+        int coordenadaY = 6; 
+
+
+        if (coordenadaX > 0 && coordenadaY > 0)
+        {
+
+            Debug.Log("Cuadrante uno")
+
+        }
+
+        if (coordenadaX > 0 && coordenadaY < 0)
+        {
+
+            Debug.Log("Cuadrante dos")
+
+        }
+
+        if (coordenadaX < 0 && coordenadaY < 0)
+        {
+
+            Debug.Log("Cuadrante tres")
+
+        }
+
+        if (coordenadaX < 0 && coordenadaY > 0)
+        {
+
+            Debug.Log("Cuadrante cuatro")
+
+        }
+
+
+
+        int piedra = 1; 
+        int papel = 2;
+        int tijeras = 3;
+
+
+        if (piedra == 1 && papel == 2)
+        {
+            Debug.Log("gana papel"); 
+        }
+
+        if (piedra == 1 && tijeras == 2)
+        {
+            Debug.Log("gana piedra");
+        }
+
+        if (piedra == 1 && piedra == 2)
+        {
+            Debug.Log("empate");
+        }
+
+        if (papel == 1 && papel == 2)
+        {
+            Debug.Log("empate");
+        }
+
+        if (papel == 1 && tijeras == 2)
+        {
+            Debug.Log("gana tijeras");
+        }
+
+        if (papel == 1 && piedra == 2)
+        {
+            Debug.Log("gana papel");
+        }
+
+        if (tijeras == 1 && papel == 2)
+        {
+            Debug.Log("gana tijeras");
+        }
+
+        if (tijeras == 1 && tijeras == 2)
+        {
+            Debug.Log("empate");
+        }
+
+        if (tijeras == 1 && piedra == 2)
+        {
+            Debug.Log("gana piedra");
+        }
+
+
+
+
+
+
+
+        int dados = 7; 
+
+        if (dados > 4)
+        {
+
+
+            Debug.Log("impacta")
+
+
+           if (dados > 5)
+            {
+
+                Debug.Log("genera tirada de defensa")
+
+            }
+           else if 
+        }
+
+        if (dados < 4)
+        {
+
+            Debug.Log("no impacta")
+        }
+
+
+
+
+
+
+
+
+
+
 
     }
 
-    
+
+
+
+
+>>>>>>> 27058a7ab4ca34c54f71cfc4066e731109c30599
     void Update()
     {
         
