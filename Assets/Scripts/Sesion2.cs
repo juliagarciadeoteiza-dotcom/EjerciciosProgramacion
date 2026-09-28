@@ -7,9 +7,7 @@ public class Sesion2 : MonoBehaviour
     {
 
 
-        
-    
-=======
+
         int FlappyPosY = 800;
 
         int upperLimitY = 700; 
@@ -196,10 +194,6 @@ public class Sesion2 : MonoBehaviour
     }
 
 
-
-
-
->>>>>>> 27058a7ab4ca34c54f71cfc4066e731109c30599
     void Update()
     {
         
