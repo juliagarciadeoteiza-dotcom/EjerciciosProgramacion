@@ -7,14 +7,15 @@ public class sesion3 : MonoBehaviour
     {
         int fuerza = (Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7)) * 5;
 
-       
         /*
         
-        int con = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int des = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int apariencia = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int poder = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
-        int suerte = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
+        int con =  (Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7)) * 5;
+        int des =  (Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7)) * 5;
+        int apariencia =  (Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7)) * 5;
+        int poder = (Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7)) * 5;
+        int suerte =  (Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7)) * 5;
+
+
 
 
         int tamaño = (Random.Range(1, 7) + (Random.Range(1, 7) + (Random.Range(1, 7)) * 5;
